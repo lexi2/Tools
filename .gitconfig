@@ -1,0 +1,22 @@
+[filter "lfs"]
+	clean = git lfs clean %f
+	smudge = git lfs smudge %f
+	required = true
+[user]
+	name = Lexi2
+	email = alex.rosewarne@gmail.com
+[core]
+	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w
+	eol = lf
+	autocrlf = false
+[credential]
+	helper = osxkeychain
+[color]
+	ui = true
+[alias]
+	ci = commit
+	co = checkout
+	st = status
+	br = branch
+[help]
+	autocorrect = 1
