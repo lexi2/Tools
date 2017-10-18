@@ -1,0 +1,18 @@
+{
+    "caret_extra_width": 8,
+    "color_scheme": "Packages/Agila Theme/Agila Neon Monocyanide.tmTheme",
+    "draw_white_space": "all",
+    "draw_white_space_lineendings": "all",
+    "font_size": 20,
+    "highlightline": false,
+    "ignored_packages":
+    [
+        "Markdown",
+        "Vintage"
+    ],
+    "tab_size": 4,
+    "theme": "Agila Neon.sublime-theme",
+    "translate_tabs_to_spaces": true,
+    "trim_trailing_white_space_on_save": true,
+    "word_wrap": true
+}

@@ -1,22 +1,26 @@
-[filter "lfs"]
-	clean = git lfs clean %f
-	smudge = git lfs smudge %f
-	required = true
-[user]
-	name = Lexi2
-	email = alex.rosewarne@gmail.com
-[core]
-	editor = /Applications/Sublime\\ Text.app/Contents/SharedSupport/bin/subl -n -w
-	eol = lf
-	autocrlf = false
-[credential]
-	helper = osxkeychain
-[color]
-	ui = true
 [alias]
-	ci = commit
-	co = checkout
-	st = status
-	br = branch
-[help]
-	autocorrect = 1
+    # TBC
+[core]
+    # Use custom `.gitignore`
+    excludesfile = ~/.gitignore
+    # Treat spaces before tabs, lines that are indented with 8 or more spaces, and all kinds of trailing whitespace as an error
+    whitespace = space-before-tab,indent-with-non-tab,trailing-space
+[color]
+    # Use colors in Git commands that are capable of colored output when outputting to the terminal
+    ui = auto
+[color "branch"]
+    current = yellow reverse
+    local = yellow
+    remote = green
+[color "diff"]
+    meta = yellow bold
+    frag = magenta bold
+    old = red bold
+    new = green bold
+[color "status"]
+    added = yellow
+    changed = green
+    untracked = cyan
+[user]
+    name = ARosewarne
+    email = alex.rosewarne@gmail.com
