@@ -9,12 +9,10 @@ Used for new computer setup. Contains the following setup tools
 
 ## Preferred Apps to Download
 * Iterm
-* Sketch
+* Sketch or figma
 * RightFont
-* Sublime
-* Sip
+* Sublime or visual code studio 
 * Just Focus
-* SunSama
 * Moon
 * Licecap
 * Slack
